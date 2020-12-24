@@ -2,7 +2,7 @@
 
 Learn the "what" and "why" behind fundamental aspects of the CALL Ledger.
 
-## Introduction
+## [Introduction](introduction/)
 
 The CALL Ledger is a decentralized cryptographic ledger powered by a network of peer-to-peer calld servers. This section covers basic concepts that help you learn the "what" and "why" behind fundamental aspects of the CALL Ledger.
 
