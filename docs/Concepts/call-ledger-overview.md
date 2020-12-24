@@ -93,4 +93,3 @@ For more information, see [Smart Contract](smart-contract.html).
 One of the biggest features that sets the CALL Ledger apart from other cryptocurrency networks is that it also contains a full currency exchange that runs on the CALL Ledger. Within this system, businesses (typically called "gateways") can freely issue any currency they want to customers, and those customers can freely trade issued currencies for CALL or other issued currencies issued by any gateway. The CALL Ledger can execute atomic cross-currency transactions this way, using orders in the exchange to provide liquidity.
 
 For more information on how the decentralized exchange works, see [Decentralized Exchange](decentralized-exchange.html). For more information on the gateway business model, see the [Become an CALL Ledger Gateway](become-an-call-ledger-gateway.html).
-

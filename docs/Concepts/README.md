@@ -2,11 +2,9 @@
 
 Learn the "what" and "why" behind fundamental aspects of the CALL Ledger.
 
-## [Introduction](introduction/)
-
 The CALL Ledger is a decentralized cryptographic ledger powered by a network of peer-to-peer calld servers. This section covers basic concepts that help you learn the "what" and "why" behind fundamental aspects of the CALL Ledger.
 
-## System Basics
+## Payment System Basics
 
 One of the primary purposes of the CALL Ledger is payment processing. Learn more about key concepts that will help you understand the CALL Ledger payment system.
 
