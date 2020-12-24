@@ -98,10 +98,3 @@ You don't need to use Call’s version of the CALL Ledger software to interact w
 
 Yes. Client software for the CALL Ledger, including call-lib, has a different codebase and repositories from `calld` (validation).
 
-
-## See Also
-
-- [`calld` codebase](https://github.com/callchain/calld)
-- User software codebase:
-      - [call-lib](https://github.com/callchain/call-lib)
-- [Call GitHub Organization](https://github.com/callchain/)

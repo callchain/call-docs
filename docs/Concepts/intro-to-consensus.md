@@ -51,11 +51,6 @@ It's OK if a small proportion of validators don't operate properly all the time.
 For a longer exploration of how the CALL Ledger Consensus Protocol responds to various challenges, attacks, and failure cases, see [Consensus Protections Against Attacks and Failure Modes](consensus-protections.html).
 
 
-## See Also
-
-- [Consensus Network Concepts](consensus-network.html) for several articles describing the mechanics of the CALL Ledger Consensus Protocol in greater depth.
-- [Run `calld` as a Validator](run-calld-as-a-validator.html) for instructions on running your own validator.
-
 
 <!--{# TODO: Replace the Decent Strategy Update w/ a newer article when we have one #}-->
 
