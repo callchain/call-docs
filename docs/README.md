@@ -1,9 +1,16 @@
-# Callchain Docs
-
-Callchain is open source technology that anyone can use.
-
-Use the tools and information provided here to integrate with and contribute to the open-source platform.
-
-Dive into our documentation and start integrating with the CALL Ledger.
-
-Browse by category, or skip straight to the full documentation index.
+---
+home: true
+heroImage: /call.png
+heroText: Callchain
+tagline: Everyone has right to issue owner token
+actionText: Get Started →
+actionLink: /concepts/
+features:
+- title: Concepts
+  details: Learn the "what" and "why" behind fundamental aspects of Callchain.
+- title: Tutorials
+  details: Get step-by-step guidance to perform common tasks with Callchain.
+- title: Use Case
+  details: Use these roadmaps to walk you, task-by-task, through implementing your use case.
+footer: ISC License | Copyright © 2020 Callchain Foundation
+---
