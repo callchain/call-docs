@@ -4,34 +4,13 @@ module.exports = {
   
   themeConfig: {
     logo: '/call.png',
-    sidebar: [
-      {
-        title: 'Concepts',
-        path: '/concepts/',
-        collapsable: false,
-        sidebarDepth: 1,
-        children: [
-          '/'
-        ]
-      },
-      {
-        title: 'Tutorials',
-        collapsable: false,
-        children: [ /* ... */ ],
-      },
-      {
-        title: 'Use Case',
-        collapsable: false,
-        children: [ /* ... */ ],
-        initialOpenGroupIndex: -1 // 可选的, 默认值是 0
-      },
-      {
-        title: 'References',
-        collapsable: true,
-        children: [ /* ... */ ],
-        initialOpenGroupIndex: -1 // 可选的, 默认值是 0
-      }
+    nav: [
+      { text: 'Concepts', link: '/concepts/' },
+      { text: 'Tutorials', link: '/tutorials/' },
+      { text: 'Use Cases', link: '/cases/' },
+      { text: 'References', link: '/references/' }
     ],
+    sidebar: 'auto',
     nextLinks: true,
     prevLinks: true
   }
