@@ -1,0 +1,41 @@
+# SetRegularKey
+
+[[Source]<br>](https://github.com/callchain/call-lib/blob/4239880acb5e559446d2067f00dabb31cf102a23/src/call/app/transactors/SetRegularKey.cpp "Source")
+
+A `SetRegularKey` transaction assigns, changes, or removes the regular key pair associated with an account.
+
+You can protect your account by assigning a regular key pair to it and using it instead of the master key pair to sign transactions whenever possible. If your regular key pair is compromised, but your master key pair is not, you can use a `SetRegularKey` transaction to regain control of your account.
+
+## Example {{currentpage.name}} JSON
+
+```json
+{
+    "Flags": 0,
+    "TransactionType": "SetRegularKey",
+    "account": "cf1BiGeXwwQoi8Z2ueFYTEXSwuJYfV2Jpn",
+    "Fee": "12",
+    "RegularKey": "cAR8rR8sUkBoCZFawhkWzY4Y5YoyuznwD"
+}
+```
+
+{% include '_snippets/tx-fields-intro.md' %}
+<!--{# fix md highlighting_ #}-->
+
+| Field        | JSON Type | [Internal Type][] | Description                   |
+|:-------------|:----------|:------------------|:------------------------------|
+| `RegularKey` | String    | AccountID         | _(Optional)_ A base-58-encoded [Address][] that indicates the regular key pair to be assigned to the account. If omitted, removes any existing regular key pair from the account. Must not match the master key pair for the address. |
+
+**Warning:** Until the [fixMasterKeyAsRegularKey amendment][] :not_enabled: becomes enabled, it is possible to set your regular key to match your master key. If you then disable the master key, your address cannot send transactions signed with the key even though it matches the enabled regular key. As a result, you cannot send any transactions from the address unless you have [multi-signing](multi-signing.html) enabled and use that. With the amendment enabled, such "blocked" accounts can send transactions again.
+
+## See Also
+
+For more information about regular and master key pairs, see [Cryptographic Keys](cryptographic-keys.html).
+
+For a tutorial on assigning a regular key pair to an account, see [Working with a Regular Key Pair](assign-a-regular-key-pair.html).
+
+For even greater security, you can use [multi-signing](multi-signing.html), but multi-signing requires additional CALL for the [transaction cost][] and [reserve](reserves.html).
+
+<!--{# common link defs #}-->
+{% include '_snippets/calld-api-links.md' %}
+{% include '_snippets/tx-type-links.md' %}
+{% include '_snippets/calld_versions.md' %}
