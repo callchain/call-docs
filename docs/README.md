@@ -12,5 +12,5 @@ features:
   details: Get step-by-step guidance to perform common tasks with Callchain.
 - title: Use Case
   details: Use these roadmaps to walk you, task-by-task, through implementing your use case.
-footer: ISC License | Copyright © 2020 Callchain Foundation
+footer: ISC License | Copyright © 2018-2020 Callchain Foundation
 ---
