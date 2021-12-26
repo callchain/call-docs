@@ -11,6 +11,12 @@ module.exports = {
       { text: 'References', link: '/references/' }
     ],
 
+    lastUpdated: 'Last Updated',
+
+    displayAllHeaders: true,
+    sidebarDepth: 2,
+    // sidebar: 'auto',
+
     sidebar: {
       '/concepts/': [
         '/concepts/call-ledger-overview.md',
