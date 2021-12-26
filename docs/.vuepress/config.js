@@ -8,7 +8,15 @@ module.exports = {
       { text: 'Concepts', link: '/concepts/' },
       { text: 'Tutorials', link: '/tutorials/' },
       { text: 'Use Cases', link: '/cases/' },
-      { text: 'References', link: '/references/' }
+      { text: 'References', link: '/references/' },
+      {
+        text: 'Links',
+        items: [
+          { text: 'Callchain', link: 'https://callchain.cc' },
+          { text: 'CallWallet', link: 'https://wallet.callchain.cc' },
+          { text: 'CallExplorer', link: 'https://block.callchain.cc' }
+        ]
+      }
     ],
 
     lastUpdated: 'Last Updated',
